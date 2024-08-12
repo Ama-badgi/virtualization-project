@@ -1,0 +1,13 @@
+<disk type='file' device='disk'>
+  <source file='{}'/>
+
+  <target dev='{}'/>
+
+  <disk bus='virtio'/>
+
+  <error_policy>stop</error_policy>
+
+  <features>
+    {}
+  </features>
+</disk>
